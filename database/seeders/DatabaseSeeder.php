@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ArticleSeeder::class,
-            StarshipSeeder::class
+            StarshipSeeder::class,
+            HolodeckSeeder::class,
         ]);
     }
 }

@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="navbar-brand">
                     <a href="/" class="navbar-item">
-                        <strong><i class="far fa-hand-spock"></i> Starfeet</strong>
+                        <strong><i class="far fa-hand-spock"></i> Starfleet</strong>
                     </a>
                     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                         <span aria-hidden="true"></span>
@@ -36,6 +36,10 @@
                         <a href="{{ route('ships.index') }}"
                            class="navbar-item {{ request()->route()->getName() === 'ships.index' ? "is-active" : "" }}">
                             The Fleet
+                        </a>
+                        <a href="{{ route('holodecks.index') }}"
+                           class="navbar-item {{ request()->route()->getName() === 'holodecks.index' ? "is-active" : "" }}">
+                            holodecks
                         </a>
                     </div>
                 </div>

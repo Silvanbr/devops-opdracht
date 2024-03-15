@@ -9,6 +9,7 @@ Star Trek universe.
 ## Authors
 
 * **Daan de Waard** - *Initial work* - [dwaard](https://github.com/dwaard)
+* **Silvan van Brussel** - *features* - [Silvanbr]
 
 See also the list of [contributors](https://github.com/HZ-HBO-ICT/laravel-skeleton-app/graphs/contributors) who
 participated in this project.
